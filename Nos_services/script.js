@@ -1,5 +1,5 @@
 var slidermain = document.getElementById("slider");
-var item = slidermain.getElementsByClassName("item")
+var item = slidermain.getElementsByClassName("item");
 function suivant(){
     slidermain.append(item[0]);
     

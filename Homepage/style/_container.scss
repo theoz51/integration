@@ -1,0 +1,205 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .service{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+                width: 500px;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 1145px;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    margin-right: 5px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .block{
+            margin: 130px 100px;
+            display: flex;
+            position: relative;
+            z-index: 10;
+            justify-content: space-between;
+            
+            .articles{
+                height: 350px;
+                width: 300px;
+                text-align: center;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+                h2{
+                    color: #707070;
+                }
+
+                p{
+                    color: #707070;
+                    margin: 0 30px 0 30px;
+                }
+
+                img{
+                    margin-top: 30px;
+                    width: 100px;
+                }
+                .groupe{
+                    width: 100px;
+                    height: 100px;
+                    background-color: #CFC8C6;
+                    margin: 30px 0 0 100px;
+                    border-radius: 50px;
+
+                    #groupe{
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        .Eshop{
+            margin: 0 100px;
+            h1{
+                color: #615B57;
+            }
+
+            .block{
+                margin: 80px 0 0 0;
+
+                .article{
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid;
+                    width: 450px;
+                    height: 300px;
+                    margin: 0 80px;
+
+                    h2{
+                        font-weight: normal;
+                        color: #615B57;
+                        margin-left: 30px;
+                    }
+
+                    #fleche{
+                        width: 30px;
+                        height: 30px;
+                        position: relative;
+                        top: 35px;
+                        right: 75px;
+                    }
+                }
+
+                .image{
+                    position: absolute;
+                    width: 450px;
+                    height: auto;
+                    left: 150px;
+                    top: 100px;
+
+                    img{
+                        width: 450px;
+                    }
+
+                    .black{
+                        font-size: 20px;
+                        padding: 10px 0;
+                        display: flex;
+                        width: 450px;
+                        font-weight: bold;
+                        color: white;
+                        background-color: #000000;
+                        justify-content: center;
+                        z-index: 100;
+                        position: relative;
+                        bottom: 10px;
+                    }
+                }
+
+                .image2{
+                    position: absolute;
+                    width: 450px;
+                    height: auto;
+                    right: 10px;
+                    
+                    top: 100px;
+
+                    img{
+                        width: 450px;
+                        border: 1px solid #CFC8C6;
+                    }
+                    .green{
+                        font-size: 20px;
+                        padding: 10px 0;
+                        display: flex;
+                        width: 452px;
+                        font-weight: bold;
+                        color: black;
+                        background-color: #00FF00;
+                        justify-content: center;
+                        z-index: 100;
+                        position: relative;
+                        bottom: 10px;
+                    }
+                }
+            }
+        }
+        .magasin{
+            margin: 250px 100px;
+            
+
+            h1{
+                color: #615B57;
+            }
+
+            p{
+                color: #615B57;
+            }
+
+            .black{
+                width: 220px;
+                height: 44px;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                background-color: #000000;
+                color: white;
+                margin-top: 50px;
+
+                &:hover{
+                    background-color: #707070;
+                }
+            }
+
+            .horaire{
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                width: 250px;
+                position: relative;
+            }
+
+        }
+    }
+}
