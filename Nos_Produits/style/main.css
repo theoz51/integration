@@ -132,6 +132,138 @@
   margin-bottom: 10px;
 }
 
+body {
+  font-family: 'DM Sans';
+  margin: 0;
+  padding-top: 100px;
+}
+
+body .container #image {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+body .container .nosProdruits {
+  z-index: 10;
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+body .container .nosProdruits h1 {
+  font-size: 55px;
+  color: white;
+  width: 500px;
+}
+
+body .container .nosProdruits p {
+  font-size: 30px;
+  color: white;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+body .container .nosProdruits p span {
+  background-color: #00FF00;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+body .container .block {
+  margin: 450px 220px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 5px solid rgba(207, 200, 198, 0.32);
+}
+
+body .container .block .article {
+  width: 450px;
+  color: #615B57;
+  padding: 50px;
+}
+
+body .container .block .article.image {
+  background-color: rgba(207, 200, 198, 0.32);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .block2 {
+  margin: 0 220px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 5px solid rgba(207, 200, 198, 0.32);
+}
+
+body .container .block2 .article {
+  width: 450px;
+  color: #615B57;
+  padding: 50px;
+}
+
+body .container .block2 .article.image {
+  background-color: rgba(207, 200, 198, 0.32);
+}
+
+body .marques h2 {
+  color: #615B57;
+  margin: 100px 220px;
+}
+
+body .marques .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 150px 20px 150px;
+}
+
+body .marques .article img {
+  width: 150px;
+  height: auto;
+}
+
+body .green {
+  width: 450px;
+  height: 200px;
+  background-color: #00FF00;
+  margin-bottom: 200px;
+}
+
+body .green .black {
+  width: 350px;
+  height: 44px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  margin-top: 90px;
+  margin-left: 280px;
+}
+
+body .green .black:hover {
+  background-color: #707070;
+}
+
 footer {
   width: 100%;
   height: 550px;
