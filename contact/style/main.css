@@ -56,7 +56,7 @@
 }
 
 .navhead .navbar button.black {
-  background-color: #000000;
+  background-color: black;
   color: white;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .navhead .navbar button.green {
-  background-color: #00ff00;
+  background-color: lime;
 }
 
 .navhead .navbar button.green:hover {
@@ -144,91 +144,130 @@ body .container #image {
   position: absolute;
 }
 
-body .container .block {
-  background-color: white;
-  position: relative;
+body .container .contact {
   z-index: 10;
-  width: 650px;
-  height: 880px;
-  top: 250px;
-  left: 150px;
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+body .container .contact h1 {
+  font-size: 55px;
+  color: white;
+}
+
+body .container .contact p {
+  font-size: 30px;
+  color: white;
+  width: 840px;
+}
+
+body .container .contact p span {
+  background-color: #00FF00;
+  font-size: 30px;
+  color: black;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+body .container .map {
+  margin-left: 25px;
+  position: relative;
+  top: 300px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .map .contacter {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+  height: 300px;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  width: 700px;
 }
 
-body .container .block .text {
-  margin: 100px;
-  padding-top: 50px;
+body .container .map .contacter h4 {
+  width: 700px;
 }
 
-body .container .block .text .green {
-  background-color: rgba(0, 255, 0, 0.24);
-  color: #008000;
-  padding: 5px 20px;
-}
-
-body .container .block img {
-  width: 100%;
-}
-
-body .container #share {
-  width: 25px;
-  position: relative;
-  top: 120px;
-  left: 820px;
-}
-
-body .container .plusArticles {
-  margin: 200px 100px 100px 100px;
-}
-
-body .container .plusArticles h2 {
-  color: #615B57;
-}
-
-body .container .plusArticles .block2 {
+body .container .map .contacter article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #615B57;
 }
 
-body .container .plusArticles .block2 .article {
-  width: 420px;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  height: auto;
+body .container .map .contacter article div {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
 }
 
-body .container .plusArticles .block2 .article .text {
-  margin: 40px 40px;
+body .container .map .contacter article div img {
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
 }
 
-body .container .plusArticles .block2 .article .text span {
-  background-color: rgba(0, 255, 0, 0.24);
-  color: #008000;
-  padding: 5px 20px;
+body .container .map .contacter .textblock {
+  position: relative;
+  top: 0px;
 }
 
-body .container .plusArticles .block2 .article .text p {
-  margin: 30px 0;
-  width: 210px;
+body .container .map .contacter .textblock span {
+  font-weight: bold;
+  margin-right: 5px;
 }
 
-body .container .plusArticles .block2 .article img {
-  width: 100%;
+body .container .map .imagemap {
+  width: 500px;
+  height: 450px;
+}
+
+body .container .map .imagemap img {
+  position: relative;
+  height: 100%;
+  bottom: 24px;
+}
+
+body .container .green {
+  margin-top: 400px;
+  background-color: #00FF00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  width: 80%;
+}
+
+body .container .green margin
+img {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 25px;
+  left: 140px;
 }
 
 footer {
   width: 100%;
   height: 550px;
   background-color: #615B57;
+  margin-top: 450px;
 }
 
 footer .foot {

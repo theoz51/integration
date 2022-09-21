@@ -1,0 +1,109 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .contact{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 840px;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    padding-right: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .map{
+            margin-left: 25px;
+            position: relative;
+            top: 300px;
+            z-index: 10;
+            display: flex;
+            
+            .contacter{
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                background-color: white;
+                display: flex;
+                padding: 50px;
+                height: 300px;
+                flex-flow: wrap;
+                width: 700px;
+
+                h4{
+                    width: 700px;
+                }
+                article{
+                    display: flex;
+                    justify-content: space-between;
+                    div{
+                        width: 250px;
+                        display: flex;
+                        font-size: 13px;
+                        img{
+                            margin-right: 30px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+                .textblock{
+                    position: relative;
+                    top: 0px;
+                    span{
+                        font-weight: bold;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            .imagemap{
+                width: 500px;
+                height: 450px;
+                img{
+                    position: relative;
+                    height: 100%;
+                    bottom: 24px;
+                }
+            }
+        }
+        .green{ 
+            margin-top: 400px;
+            margin-left: 30px;
+            background-color: #00FF00;
+            display: flex;
+            padding-left: 20px;
+            width: 80%;
+            
+            img{
+                width: 15px;
+                height: 15px;
+                position: relative;
+                top: 25px;
+                left: 140px;
+            }
+        }
+    }
+}
