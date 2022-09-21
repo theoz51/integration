@@ -1,0 +1,153 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .apropos{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 840px;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    padding-right: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .corps{
+            margin: 500px 0;
+            .article{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 200px 150px;
+
+                .green{
+                    position: absolute;
+                    text-align: center;
+                    padding: 10px;
+                    width: 20px;
+                    background-color: #00FF00;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .text{
+                    width: 600px;
+                    margin-top: 40px;
+                    h2{
+                        color: #707070;
+                    }
+
+                    p{
+                        color: #615B57;
+                        margin: 100px 0;
+                    }
+                    .black{
+                
+                        width: 220px;
+                        height: 44px;
+                        font-size: 20px;
+                        border-radius: 30px;
+                        border: none;
+                        background-color: #000000;
+                        color: white;
+                        
+        
+                        &:hover{
+                            background-color: #707070;
+                        }
+                    }
+                }
+                .image{
+                    width: 600px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .jobs{
+            position: relative;
+            bottom: 350px;
+
+            h2{
+                margin-left: 100px;
+                color: #615B57;
+            }
+            .black{
+                margin-top: 100px;
+                margin-left: 100px;
+                width: 220px;
+                height: 44px;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                background-color: #000000;
+                color: white;
+                
+
+                &:hover{
+                    background-color: #707070;
+                }
+            }
+            img{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 900px;
+                z-index: 0;
+            }
+            .block{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 150px;
+                margin-right: 200px;
+                margin-left: 100px;
+                .article{
+                    background-color: white;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                    width: 330px;
+                    padding: 10px 0 10px 0;
+                    z-index: 10;
+                    p{
+                        margin: 5px 0 5px 10px;
+                    }
+                    span{
+                        margin: 5px 0 5px 10px;
+                    }
+                    h4{
+                        margin: 5px 0 5px 10px;
+                    }
+                    &.green{
+                        text-align: center;
+                        background-color: #00FF00;
+                        h3{
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
