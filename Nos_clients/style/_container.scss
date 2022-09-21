@@ -1,0 +1,94 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+        }
+        
+        .block{
+            display: flex;
+            justify-content: space-between;
+            width: 1100px;
+            flex-flow: wrap;
+            position: relative;
+            z-index: 10;
+            bottom: 80px;
+            left: 50px;
+            .case{
+                width: 200px;
+                margin-bottom: 20px;
+                text-align: center;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                p{
+                    height: 50px;
+                    padding-top: 50px;
+                }
+                .image{
+                    width: 100%;
+                    height: 100px;
+                    padding-top: 40px;
+                    background-color: #CFC8C6;
+                }
+            }            
+        }
+        .all{
+            margin: 50px 225px;
+            .article{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 200px;
+                .image{
+                    width: 400px;
+                    img{
+                        width: 100%;
+                    }
+                    .green{
+                        background-color: #00FF00;
+                        width: 100%;
+                        padding: 55px 0 55px 0;
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: bold;
+                        position: relative;
+                        bottom: 10px;
+                    }
+
+                }
+                .text{
+                    width: 550px;
+                    p{
+                        margin: 50px 0 50px 0;
+                    }
+                    .black{
+                        margin-top: 40px;
+                        width: 220px;
+                        height: 44px;
+                        font-size: 20px;
+                        border-radius: 30px;
+                        border: none;
+                        background-color: #000000;
+                        color: white;
+                        
+        
+                        &:hover{
+                            background-color: #707070;
+                        }
+                    }
+                }
+            }
+        }
+        .fleche{
+            background-color: rgba(207, 200, 198, 1);
+            border: none;
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+            position: relative;
+            left: 1250px;
+            margin-bottom: 100px;
+        }
+    }
+}
