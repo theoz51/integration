@@ -1,0 +1,114 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        h2{
+            color: #615B57;
+        }
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .banniere{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+                width: 500px;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 1145px;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    margin-right: 5px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .blockbanniere{
+            background-color: white;
+            position: relative;
+            z-index: 10;
+            width: 900px;
+            height: 450px;
+            top: 150px;
+            left: 150px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            .text{
+                margin: 100px;
+                padding-top: 50px;
+                .green{
+                    background-color: rgba(0, 255, 0, .24);
+                    color: #008000;
+                    padding: 5px 20px;
+                }
+            }
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        .emploi{
+            margin-top: 250px;
+            h2{
+                margin-left: 150px;
+            }
+            .block{
+                display: flex;
+                justify-content: space-between;
+                margin: 70px 150px;
+                color: #707070;
+                .case{
+                    width: 560px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                    padding: 10px 10px 0 10px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        position: relative;
+                        left: 500px;
+                        bottom: 70px;
+                    }
+                    &.pourvu{
+                        .black{
+                            background-color: black;
+                            padding: 5px;
+                            color: white;
+                        }
+                        text-shadow: 0 0 4px #707070;
+                        color: transparent;
+                    }
+                }
+                .casegreen{
+                    background-color: #00FF00;
+                    width: 560px;
+                    padding: 50px 10px 30px 10px;
+                    color: black;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        position: relative;
+                        left: 500px;
+                        bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
