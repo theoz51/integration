@@ -1,0 +1,166 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .banniere{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+                width: 500px;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 1145px;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    margin-right: 5px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .equipe{
+            margin-top: 400px;
+            margin-left: 100px;
+            h2{
+                color: #615B57;
+            }
+            p{
+                color: #707070;
+                width: 500px;
+            }
+        }
+        .green{ 
+            margin-left: 70px;
+            background-color: #00FF00;
+            display: flex;
+            padding-left: 30px;
+            width: 89%;
+            margin-bottom: 50px;
+            h3{
+                width: 400px;
+            }
+            img{
+                width: 15px;
+                height: 15px;
+                position: relative;
+                top: 25px;
+                left: 65%;
+            }
+        }
+        .service{
+            .block{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #615B57;
+                margin: 0 70px 50px 70px;
+    
+                .article{
+                    width: 430px;
+                    padding: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                    p{
+                        font-size: 12px;
+                    }
+                    .paragraphe{
+                        width: 400px;
+                        margin-left: 30px;
+                    }
+                    .titre{
+                        display: flex;
+                        margin: 20px;
+                        flex-flow: wrap;
+                        width: 420px;
+                        p{
+                            position: relative;
+                            bottom: 40px;
+                            left: 120px;
+                            width: 200px;
+                        }
+                        img{
+                            margin-right: 20px;
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .decouvrer{
+            margin-top: 100px;
+            p{
+                margin-left: 100px;
+            }
+
+            h2{
+                margin-left: 100px;
+                color: #615B57;
+            }
+            .black{
+                margin-top: 100px;
+                margin-left: 100px;
+                width: 220px;
+                height: 44px;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                background-color: #000000;
+                color: white;
+                
+
+                &:hover{
+                    background-color: #707070;
+                }
+            }
+            .block{
+                display: flex;
+                justify-content: space-between;
+                margin: 150px 200px 0 100px;
+                .article{
+                    background-color: white;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                    width: 330px;
+                    padding: 10px 0 10px 0;
+                    height: 91px;
+                    z-index: 10;
+                    p{
+                        margin: 5px 0 5px 10px;
+                    }
+                    span{
+                        margin: 5px 0 5px 10px;
+                    }
+                    h4{
+                        margin: 5px 0 5px 10px;
+                    }
+                    &.green{
+                        text-align: center;
+                        margin: 0;
+                        background-color: #00FF00;
+                        h3{
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
