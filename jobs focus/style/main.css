@@ -1,0 +1,297 @@
+.navhead {
+  width: 100%;
+  height: 100px;
+  padding: 20px 0 0 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.navhead .navbar {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navhead .navbar .logo {
+  width: 249px;
+  position: relative;
+  top: 17px;
+}
+
+.navhead .navbar .trace {
+  display: none;
+}
+
+.navhead .navbar ul {
+  display: inline-block;
+}
+
+.navhead .navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.navhead .navbar ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #615B57;
+}
+
+.navhead .navbar ul li a:hover {
+  font-weight: bold;
+  color: #000000;
+}
+
+.navhead .navbar button {
+  width: 170px;
+  height: 44px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 20px;
+}
+
+.navhead .navbar button.black {
+  background-color: black;
+  color: white;
+}
+
+.navhead .navbar button.black:hover {
+  background-color: #615b62;
+}
+
+.navhead .navbar button.green {
+  background-color: lime;
+}
+
+.navhead .navbar button.green:hover {
+  background-color: #82FF82;
+}
+
+.navhead .navbar .language-select {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  max-height: 44px;
+  overflow: hidden;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 3;
+}
+
+.navhead .navbar .language-select:hover {
+  max-height: 130px;
+}
+
+.navhead .navbar .language-select a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  height: 40px;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.navhead .navbar .language-select a:hover {
+  color: #333;
+}
+
+.navhead .navbar .language-select a.actif {
+  color: #333;
+  font-weight: 700;
+}
+
+.navhead .navbar .language-select a:last-child {
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: 'DM Sans';
+  margin: 0;
+  padding-top: 100px;
+}
+
+body .container #image {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+body .container .blockbanniere {
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  width: 800px;
+  top: 250px;
+  left: 150px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+body .container .blockbanniere .text {
+  margin: 100px;
+  padding-top: 50px;
+}
+
+body .container .blockbanniere .text .green {
+  background-color: rgba(0, 255, 0, 0.24);
+  color: #008000;
+  padding: 5px 20px;
+}
+
+body .container .blockbanniere h2 {
+  color: #615B57;
+  margin-left: 100px;
+}
+
+body .container .blockbanniere form {
+  width: 100%;
+  margin: 50px 0 100px 30px;
+  color: #707070;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .blockbanniere form article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+}
+
+body .container .blockbanniere form article div {
+  border: 1px solid #707070;
+  width: 200px;
+}
+
+body .container .blockbanniere form article div input {
+  width: 30px;
+}
+
+body .container .blockbanniere form .checkbox input {
+  width: 20px;
+}
+
+body .container .blockbanniere form div {
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .container .blockbanniere form div input {
+  width: 700px;
+  border: 1px solid rgba(112, 112, 112, 0.5);
+}
+
+body .container .blockbanniere form .black {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 220px;
+  height: 44px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  position: relative;
+}
+
+body .container .blockbanniere form .black:hover {
+  background-color: #707070;
+}
+
+footer {
+  width: 100%;
+  height: 550px;
+  background-color: #615B57;
+  margin-top: 300px;
+}
+
+footer .foot {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  padding: 100px 200px 100px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .foot div h3 {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+footer .foot div.services ul li {
+  list-style: none;
+  margin-bottom: 15px;
+  color: #CFC8C6;
+  position: relative;
+  right: 40px;
+  top: 15px;
+}
+
+footer .foot div.entreprise {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  color: #CFC8C6;
+}
+
+footer .foot div.mention-legale ul li {
+  list-style: none;
+  margin-bottom: 15px;
+  color: #CFC8C6;
+  position: relative;
+  right: 40px;
+  top: 15px;
+}
+
+footer .foot div.mention-legale img {
+  width: 140px;
+  position: relative;
+  top: 100px;
+}
+/*# sourceMappingURL=main.css.map */
