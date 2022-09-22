@@ -1,0 +1,121 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+
+        .nosvaleurs{
+            z-index: 10;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+            top: 80px;
+            left: 40px;
+
+            h1{
+                font-size: 55px;
+                color: white;
+                width: 500px;
+            }
+
+            p{
+                font-size: 30px;
+                color: white;
+                width: 700px;
+                display: flex;
+                flex-flow: wrap;
+
+                span{
+                    background-color: #00FF00;
+                    font-size: 30px; 
+                    color: black;
+                    font-weight: bold;
+                    padding-right: 30px;
+                }
+            }
+        }
+        .corps{
+            margin: 400px 0 200px 0;
+            .article{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 100px 150px 100px;
+
+                .green{
+                    position: absolute;
+                    text-align: center;
+                    padding: 10px;
+                    width: 20px;
+                    background-color: #00FF00;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .text{
+                    width: 600px;
+                    margin-top: 40px;
+                    h2{
+                        color: #707070;
+                    }
+                    &.serer{
+                        p{
+                            margin: 10px 0;
+                        }
+                    }
+                    p{
+                        color: #615B57;
+                        margin: 100px 0;
+                    }
+                    .black{
+                
+                        width: 220px;
+                        height: 44px;
+                        font-size: 20px;
+                        border-radius: 30px;
+                        border: none;
+                        background-color: #000000;
+                        color: white;
+                        
+        
+                        &:hover{
+                            background-color: #707070;
+                        }
+                    }
+                }
+                .image{
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    width: 500px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .greenblock{
+            width: 450px;
+            height: 200px;
+            background-color: #00FF00;
+            margin-bottom: 200px;
+            .black{
+                width: 350px;
+                height: 44px;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                background-color: #000000;
+                color: white;
+                margin-top: 90px;
+                margin-left: 280px;
+        
+                &:hover{
+                    background-color: #707070;
+                }
+            }
+        }
+    }
+}
