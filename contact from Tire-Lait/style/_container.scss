@@ -1,0 +1,96 @@
+body{
+    font-family: 'DM Sans';
+    margin: 0;
+    padding-top: 100px;
+    .container{
+        #image{
+            z-index: 1;
+            width: 100%;
+            position: absolute;
+        }
+        .blockbanniere{
+            background-color: white;
+            position: relative;
+            z-index: 10;
+            width: 800px;
+            top: 250px;
+            left: 150px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            padding-top: 50px;
+            h2{
+                color: #615B57;
+                margin-left: 100px;
+            }
+            form{
+                width: 100%;
+                margin: 50px 0 100px 30px;
+                color: #707070;
+                flex-flow: wrap;
+                display: flex;
+
+                article{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 700px;
+
+                    div{
+                        border: 1px solid #707070;
+                        width: 200px;
+                        input{
+                            width: 30px;
+                        }
+                    }
+                }
+                .checkbox{
+                    input{
+                        width: 20px;
+                        
+                    }
+                }
+                div{
+                    width: 700px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    input{
+                        width: 700px;
+                        border: 1px solid rgba(112, 112, 112, .5);
+                    }
+                }
+                .black{
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    width: 220px;
+                    height: 44px;
+                    font-size: 20px;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: #000000;
+                    color: white;
+                    position: relative;
+
+    
+                    &:hover{
+                        background-color: #707070;
+                    }
+                }
+                .gray{
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    margin-left: 10px;
+                    width: 220px;
+                    height: 44px;
+                    font-size: 20px;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: #CFC8C6;
+                    position: relative;
+
+    
+                    &:hover{
+                        background-color: #707070;
+                    }
+                }
+            }
+        }
+    }
+}
